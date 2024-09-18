@@ -43,3 +43,54 @@ nav button:hover {
   background:darkred;
   
 }
+.header-description {
+  position: absolute;
+  width: 50vw;
+  top: 40%;
+  left: 25%;
+  text-align: center;
+}
+
+.des-one {
+  font-size: 50px;
+  font-weight: 900;
+  padding-bottom: 10px;
+}
+
+.des-two {
+  font-size: 20px;
+  font-weight: 700;
+  padding: 10px 0px;
+}
+
+ .des-three {
+  padding: 20px 0px;
+ }
+ 
+ .des-form{
+  width: 100%;
+ }
+
+ .des-form input{
+    width: 60%;
+    height: 8vh;
+    padding: 5px;
+    background-color: #000;
+    border: 0.5px solid white;
+    border-radius: 5px;
+    color: white;
+    font-size: 18px;
+ }
+
+ .des-form button {
+  padding: 5px;
+  width: 30%;
+  height: 8vh;
+  background-color: red;
+  color: white;
+  border: 1px solid transparent;
+  border-radius: 5px;
+  font-size: 25px;
+  font-weight: 700;
+  cursor: pointer;;
+ }
