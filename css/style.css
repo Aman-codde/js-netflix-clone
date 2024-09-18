@@ -19,6 +19,30 @@ body{
   position: relative;
 }
 
+nav{
+  display: flex;
+  align-items:center;
+  justify-content:end;
+  padding: 10px 0;
+}
+
+nav button{
+  border:0;
+  outline:0;
+  background:red;
+  color: #fff;
+  padding:7px 20px;
+  font-size: 12px;
+  border-radius: 1px;
+  margin-left: 10px;
+  cursor:pointer;
+  float: left;
+  }
+
+nav button:hover {
+  background:darkred;
+  
+}
 .header-description {
   position: absolute;
   width: 50vw;
