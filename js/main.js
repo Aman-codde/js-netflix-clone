@@ -46,6 +46,7 @@ function createAccount(){
             localStorage.removeItem('email');
             // add {email(as key): password(as value)} to localStorage
             localStorage.setItem(`${email}`,passwordInput.value);
+            alert("Account created Successfully");
             passwordInput.value="";
             //remove password input and add email input at same location
             formDiv.removeChild(passwordInput);
