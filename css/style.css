@@ -76,11 +76,11 @@ li a:hover {
   padding: 20px 0px;
  }
  
- .des-form{
+ .signup-form{
   width: 100%;
  }
 
- .des-form input{
+ .signup-form input{
     width: 60%;
     height: 8vh;
     padding: 5px;
@@ -91,7 +91,7 @@ li a:hover {
     font-size: 18px;
  }
 
- .des-form button {
+ .signup-form button {
   padding: 5px;
   width: 30%;
   height: 8vh;
