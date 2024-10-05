@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.flex-container {
+    margin-left: 30px;
+    display: flex;
+    margin-bottom: 40px;
+}
+
+h2 {
+    margin-left: 40px;
+}
+
+.flex-container > div {
+    padding: 10px;
+}
+
+.flex-container img {
+    object-fit: cover;
+    max-height: 168px;
+}
