@@ -3,6 +3,11 @@
     padding: 0;
 }
 
+#logged_user a {
+    background-color: black;
+    color: red;
+}
+
 .flex-container {
     margin-left: 30px;
     display: flex;
