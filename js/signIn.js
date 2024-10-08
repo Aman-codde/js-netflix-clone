@@ -10,7 +10,8 @@ let signinBtn = document.getElementById("signin");
     let emailExists = localStorage.getItem(emailVal);
     if (emailExists !== null) {
       if (password === emailExists) {
-        alert("signed in successfully");
+        localStorage.setItem('logged_user',emailVal);
+        window.location.href = 'categories.html';
       } else {
         alert("password does not match");
       }
